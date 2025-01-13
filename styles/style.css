@@ -35,6 +35,35 @@
     border: none;
 }
 
+.btn-third{
+    padding: 11px 20px;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.heading{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.icon1{
+    max-width: 64px;
+    max-height: 64px;
+    margin-bottom: 24px;
+}
+
 /* Nav styles */
 nav{
     display: flex; 
@@ -59,7 +88,7 @@ nav{
 .banner{
     height: 560px;
     background-color: #C6E4D6;
-    margin: 0px 160px 80px;
+    margin: 0 160px 80px 160px;
     border-radius: 24px;
     display: flex;
     align-items: center;
@@ -87,3 +116,81 @@ nav{
     margin-right: 60px;
 }
 
+/* Vision styles */
+
+.vision{
+    margin: 0 160px 80px 160px;
+    justify-content: space-around;
+}
+
+.vision-heading{
+    margin-top: 0;
+    margin-bottom: 32px;
+    max-height: 120px;
+}
+
+.vision-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+
+.card1{
+    max-width: 411px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px 32px;
+    justify-content: space-around;
+}
+
+.v-btn-one{
+    background-color: #5490F5;
+}
+
+.card2{
+    max-width: 411px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px 32px;
+    justify-content: space-around;
+}
+
+.v-btn-two{
+    background-color: #09A15C;
+}
+
+.card3{
+    max-width: 411px;
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px 32px;
+    justify-content: space-around;
+}
+
+.v-btn-three{
+    background-color: #FFC239;
+}
+
+.s-heading{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card-text{
+    margin-bottom: 24px;
+}
+
+.diff-color{
+    color: rgba(14, 14, 14, 0.6);
+}
+
+.quote{
+    background-color: #ffffff;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-image: url("../images/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 25px left 24px;
+}
