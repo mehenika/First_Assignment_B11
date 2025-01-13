@@ -70,6 +70,10 @@
     margin-bottom: 24px;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* Nav styles */
 nav{
     display: flex; 
@@ -138,7 +142,7 @@ nav{
 
 
 .card1{
-    max-width: 411px;
+    max-width: 320px;
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
     padding: 32px 32px;
@@ -150,7 +154,7 @@ nav{
 }
 
 .card2{
-    max-width: 411px;
+    max-width: 320px;
     background-color: #C6E4D6;
     border-radius: 16px;
     padding: 32px 32px;
@@ -162,7 +166,7 @@ nav{
 }
 
 .card3{
-    max-width: 411px;
+    max-width: 320px;
     background-color: #F7EBCF;
     border-radius: 16px;
     padding: 32px 32px;
@@ -242,4 +246,56 @@ nav{
     border-radius: 24px;
     width: 408px;
     height: 306px;
+}
+
+.news2{
+    margin-bottom: 0;
+}
+
+/* Donate Styles */
+
+.donate{
+    margin: 0 160px 80px 160px;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.amounts{
+    margin: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.amount1{
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.amount2{
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+
+.amount-taka{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 20px 423px;
+    border: none;
+    background-color: #ffffff;
+    color: rgba(14, 14, 14, 0.3);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn-donate{
+    display: flex;
+    margin: 0 auto;
 }
