@@ -44,6 +44,12 @@
     font-weight: 700;
 }
 
+.section-heading{
+    margin-top: 0;
+    margin-bottom: 32px;
+    max-height: 120px;
+}
+
 .heading{
     margin-top: 0;
     margin-bottom: 24px;
@@ -123,12 +129,6 @@ nav{
     justify-content: space-around;
 }
 
-.vision-heading{
-    margin-top: 0;
-    margin-bottom: 32px;
-    max-height: 120px;
-}
-
 .vision-cards{
     display: flex;
     align-items: center;
@@ -193,4 +193,53 @@ nav{
     background-image: url("../images/quote-bg.png");
     background-repeat: no-repeat;
     background-position: top 25px left 24px;
+}
+
+/* News Styles */
+
+.recent-news{
+    margin: 0 160px 80px 160px;
+    justify-content: space-around;
+}
+
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.news1{
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.news-card{
+    margin-bottom: 40px;
+}
+
+.btn-news{
+    color: #ffffff;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.image1{
+    margin-right: 32px;
+    border-radius: 24px;
+    max-height: 306px;
+}
+
+.image2{
+    margin-left: 32px;
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
 }
