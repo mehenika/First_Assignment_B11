@@ -44,6 +44,15 @@
     font-weight: 700;
 }
 
+.btn-hover-2:hover{
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+}
+
+.card-hover:hover{
+    background-color: #D5D3D3;
+}
+
 .section-heading{
     margin-top: 0;
     margin-bottom: 32px;
@@ -268,6 +277,10 @@ nav{
     justify-content: space-between;
 }
 
+.amount1:hover{
+    background-color: #C6E4D6;
+}
+
 .amount1{
     padding: 40px;
     color: rgba(14, 14, 14, 0.8);
@@ -280,6 +293,10 @@ nav{
     color: rgba(14, 14, 14, 0.8);
     background-color: #C6E4D6;
     border-radius: 16px;
+}
+
+.amount2:hover{
+    background-color: #ffffff;
 }
 
 .amount-taka{
