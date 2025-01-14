@@ -299,3 +299,38 @@ nav{
     display: flex;
     margin: 0 auto;
 }
+
+/* Newsletter styles */
+
+.newsletter{
+    margin: 0 160px 80px 160px;
+    padding: 80px 265px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-subscribe{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0;
+}
+
+.email{
+    border: none;
+    background-color: #ffffff;
+    color: rgba(14, 14, 14, 0.3);
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 55px;
+}
+
+.email-subscribe{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
